@@ -1,0 +1,7 @@
+{
+    "name": "Core",
+    "slug": "core",
+    "version": "1.0",
+    "description": "The Core module.",
+    "order": 0
+}

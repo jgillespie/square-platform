@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 7.2
+
+before_script:
+  - composer install
+  - composer dev-env
+  - cd app/Modules/Core
+  - npm install
+  - npm run dev
+  - cd ../../..
+
+script:
+  - vendor/bin/phpunit
